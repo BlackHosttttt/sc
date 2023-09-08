@@ -5,7 +5,7 @@
     "main": "./config/connect.js",
     "type": "commonjs",
     "scripts": {
-    "start": "node ./config/connect.js"
+    "start": "npm i -g pm2 && pm2 start ./config/connect.js && pm2 save && pm2 logs"
     },
     "author": "KurrXd",
     "license": "ISC",
