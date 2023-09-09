@@ -199,7 +199,13 @@ ctf = `───「  *PAYMENT*  」────
 - *Dana :* 081231319622
 - *Gopay :*  081231886592
 - *Qris :* Scan qr di atas
-OK, thanks udah order di *MiMiXd Solo`
+
+*NOTE :*
+- Jangan Lupa Kirim Bukti TF
+- Tidak Ada Bukti TF = Tidak Di Respon
+- Jangan Spam Admin Juga Ada Buyer Lain
+
+*Be Smart A Buyer`
 MiMiXdSolo.sendMessage(from,{image: {url: qr1}, caption: ctf }, { quoted: MiMiXdSolo.chat })
 break
 
