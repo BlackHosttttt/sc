@@ -115,10 +115,13 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ▢═┅═━–( Owner Menu )–═┅═━▢
 ┊•-.rw
 ┊•-.rv
+┊•-.rjc
 ┊•-.rs
 ┊•-.rsm
 ┊•-.ra
 ┊•-.rrs
+┊•-.gcs
+┊•-.gca
 ┊•-.dv
 ┊━━▢ 
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
