@@ -124,6 +124,15 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
 break         
 
+case "rrm":
+if (!isCreator) return        
+m.reply(`Request Data Reseller SMTP
+| - Username : 
+| - PassWord : @@server@@1
+
+(Untuk PassWord Tidak Bisa Request)`)
+break
+		
  case "rsm":
 if (!isCreator) return        
 m.reply(`Request Data SMTP
