@@ -162,7 +162,13 @@ m.reply(`Request Data SMTP
 | - Username : 
 | - PassWord : `)
 break       
-        
+
+case "rjc":
+if (!isCreator) return        
+m.reply(`Request Jasa Curl
+| - Nama Ress : 
+| - Link Pusat : `)
+break       		
         
 case "ra":
 if (!isCreator) return        
