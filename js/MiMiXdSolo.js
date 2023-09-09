@@ -124,7 +124,7 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
 break         
 
-case "rrm":
+case "rrs":
 if (!isCreator) return        
 m.reply(`Request Data Reseller SMTP
 | - Username : 
