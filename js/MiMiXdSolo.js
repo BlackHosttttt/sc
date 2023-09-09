@@ -113,12 +113,6 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 
 
 ▢═┅═━–( Owner Menu )–═┅═━▢
-┊•-.add
-┊•-.del
-┊•-.listprem
-┊•-.addsp
-┊•-.delsp
-┊•-.listsp
 ┊•-.rw
 ┊•-.rv
 ┊•-.rs
