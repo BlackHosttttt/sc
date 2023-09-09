@@ -122,7 +122,30 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ┊•-.dv
 ┊━━▢ 
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
-break         
+break 
+
+case "gca":
+if (!isCreator) return        
+m.reply(`Link Grup Admin Panel
+https://chat.whatsapp.com/L3dyRpbH01fHmsbBcJfF8G
+
+*NOTE :*
+- Silahkan Join Ke Grup
+- Silahkan Langsung Login Ke Akun Sesuai Dengan Request an
+- Admin Tidak Mengirimkan Data`)
+break		
+		
+
+case "gcs":
+if (!isCreator) return        
+m.reply(`Link Grup Client SMTP
+https://chat.whatsapp.com/HmkvWA3RWOeIKqFujNTGuu
+
+*NOTE :*
+- Silahkan Join Ke Grup
+- Silahkan Langsung Login Ke Akun Sesuai Dengan Request an
+- Admin Tidak Mengirimkan Data`)
+break		
 
 case "rrs":
 if (!isCreator) return        
