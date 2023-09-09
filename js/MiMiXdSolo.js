@@ -84,16 +84,16 @@ switch (command) {
 case "list":
 menump3 = fs.readFileSync('./menu.mp3')
 m.reply(`
-| - .listadmin
-| - .listpanel
-| - .listwhm
-| - .listsmtp
-| - .listreseller
-| - .listmurid
-| - .jinstall
-| - .jcurl
-| - .listtools
-| - .listvps`)
+| - .listadmin (Admin Panel)
+| - .listpanel (Panel Bot)
+| - .listwhm (Harga WHM)
+| - .listsmtp (Harga SMTP)
+| - .listreseller (List Reseller SMTP)
+| - .listmurid (List Murid SMTP)
+| - .jinstall (Jasa Install)
+| - .jcurl (Jasa Curl)
+| - .listtools (Harga Tools)
+| - .listvps ( Harga VPS) `)
 break
     
     
