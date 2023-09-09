@@ -118,8 +118,8 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ┊•-.rs
 ┊•-.rsm
 ┊•-.ra
+┊•-.rrs
 ┊•-.dv
-┊•-.ds
 ┊━━▢ 
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
 break         
@@ -214,7 +214,7 @@ ctf = `───「  *PAYMENT*  」────
 - Tidak Ada Bukti TF = Tidak Di Respon
 - Jangan Spam Admin Juga Ada Buyer Lain
 
-*Be Smart A Buyer`
+*Be Smart A Buyer*`
 MiMiXdSolo.sendMessage(from,{image: {url: qr1}, caption: ctf }, { quoted: MiMiXdSolo.chat })
 break
 
