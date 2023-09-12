@@ -364,7 +364,7 @@ break
 case "buyadminpanel": case "listadmin":{
 m.reply(`[ *LIST HARGA ADMIN PANEL* ]
 
-HARGA = 10K
+HARGA = ~10K~ 5k
 
 GARANSI 10 DAY
 
