@@ -245,7 +245,7 @@ Berikut Larangan Tos
 Jika Melanggar Garansi Tidak Dapat Di Claim, Di Mohon Untuk Tidak Di langgar
 
 Terimakasih
-© *2023* *MiMiXd* *Solo*`
+MiMiXd Solo`
 m.reply(txtd)
 break       
 case 'pay':
