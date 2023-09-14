@@ -230,7 +230,22 @@ txtd = `INI ADALAH DATA VPS MU
 📡 IP ADDRES : ${kow1}
 👤 USER: root
 🔑 PASS : ${kow2} 
-Terima Kasih Sudah Berbelanja Di MiMiXd Solo`
+
+Note : Wajib Dibaca Agar Tidak Ada Pertanyaan Lagi!!!
+
+Berikut Larangan Tos 
+
+⚠ - No Cpu 100%
+⚠ - No Ddos
+⚠ - No Mining
+⚠ - No Tuneling
+⚠ - No Torrent
+⚠ - No Hacking
+
+Jika Melanggar Garansi Tidak Dapat Di Claim, Di Mohon Untuk Tidak Di langgar
+
+Terimakasih
+© *2023 MiMiXd Solo*`
 m.reply(txtd)
 break       
 case 'pay':
