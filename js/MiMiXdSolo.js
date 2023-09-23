@@ -132,7 +132,7 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 
 ▢═┅═━–( Menu )–═┅═━▢
 ┊•-.fr (munculkan list Fee)
-┊•-.jp (munculkan Format JP)
+┊•-.fjp (munculkan Format JP)
 ┊•-.dsuk
 ┊•-.pay (munculkan list payment)
 ┊•-.dmc (untuk done MC)
@@ -158,7 +158,7 @@ BT/TT 25K
 | TRX BATAL FEE KEPOTONG |`)
 break 	
 
-case "jp":
+case "fjp":
 m.reply(`*FORMAT JAPOST BY MiMiXd Solo*
 (BUKAN AKUN ADMIN) 
 
