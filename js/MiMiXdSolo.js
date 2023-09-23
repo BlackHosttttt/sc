@@ -134,7 +134,7 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ┊•-.fr (munculkan list Fee)
 ┊•-.jp (munculkan Format JP)
 ┊•-.pay (munculkan list payment)
-┊•-.dmc (untuk done vps)
+┊•-.dmc (untuk done MC)
 ┊•-.d (untuk done transaksi)
 ┊━━▢ 
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
@@ -265,32 +265,22 @@ txtd = `🗓️ TANGGAL PEMBELIAN : ${tanggal}
 Terima Kasih Sudah Berbelanja Di MiMiXd Solo`
 m.reply(txtd)
 break
-case "dv":
+case "dmc":
 if (!isCreator) return
 let lee = text.split(',');
-if (lee.length < 2) return m.reply(`ketik d item,harga`)
+if (lee.length < 2) return m.reply(`ketik d barang,harga`)
 let kow1 = lee[0];
 let kow2 = lee[1];
-txtd = `INI ADALAH DATA VPS MU
+txtd = `*ALL TRX DONE*
 
-📡 IP ADDRES : ${kow1}
-👤 USER: root
-🔑 PASS : ${kow2} 
+Barang : ${kow1}
+Harga : ${kow2} 
+Sistem : MC MiMiXd Solo
 
-Note : Wajib Dibaca Agar Tidak Ada Pertanyaan Lagi!!!
-
-Berikut Larangan Tos 
-
-⚠ - No Cpu 100%
-⚠ - No Ddos
-⚠ - No Mining
-⚠ - No Tuneling
-⚠ - No Torrent
-⚠ - No Hacking
-
-Jika Melanggar Garansi Tidak Dapat Di Claim, Di Mohon Untuk Tidak Di langgar
-
-Terimakasih
+Note : 
+- BUYER DAN SELLER SUDAH MENGATAKAN DONE
+- ADMIN TIDAK BERTANGGUNG JAWAB KARENA BUYER DAN SELLER SUDAH MENGATAKAN *DONE*
+- *BE SMART A BUYER AND SELLER*
 MiMiXd Solo`
 m.reply(txtd)
 break       
