@@ -133,6 +133,7 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ▢═┅═━–( Menu )–═┅═━▢
 ┊•-.fr (munculkan list Fee)
 ┊•-.jp (munculkan Format JP)
+┊•-.dsuk
 ┊•-.pay (munculkan list payment)
 ┊•-.dmc (untuk done MC)
 ┊•-.d (untuk done transaksi)
@@ -243,6 +244,12 @@ m.reply(`Request Data VPS
 | - Region : 
 | - PassWord : `)
 break
+
+case "dsuk":
+if (!isCreator) return        
+m.reply(`*Dana Masuk Silahkan Seller Mengirimkan Data/Cein Data Akun*
+*Be Smart A Seller And Buyer*`)
+break  		
         
 case "rs":
 if (!isCreator) return        
