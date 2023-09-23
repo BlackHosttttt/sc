@@ -132,6 +132,7 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 
 ▢═┅═━–( Menu )–═┅═━▢
 ┊•-.fr (munculkan list Fee)
+┊•-.jp (munculkan Format JP)
 ┊•-.pay (munculkan list payment)
 ┊•-.dmc (untuk done vps)
 ┊•-.d (untuk done transaksi)
@@ -154,7 +155,23 @@ m.reply(`Fee Rekber MiMiXd Solo
 BT/TT 25K
 
 | TRX BATAL FEE KEPOTONG |`)
-break 			
+break 	
+
+case "jp":
+m.reply(`*FORMAT JAPOST BY MiMiXd Solo*
+(BUKAN AKUN ADMIN) 
+
+• AKUN: 
+• SPEK: 
+• HARGA: 
+• LOG: 
+• A2F: 
+• MC: 
+
+WA REAL MiMiXd Solo : 081231319623
+NOTE: Wajib Menggunakan Jasa Rekber MiMiXd Solo`)
+break 	
+		
 
 case "gca":
 if (!isCreator) return        
