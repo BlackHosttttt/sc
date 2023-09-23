@@ -248,6 +248,7 @@ break
 case "dsuk":
 if (!isCreator) return        
 m.reply(`*Dana Masuk Silahkan Seller Mengirimkan Data/Cein Data Akun*
+
 *Be Smart A Seller And Buyer*`)
 break  		
         
@@ -285,10 +286,11 @@ Harga : ${kow2}
 Sistem : MC MiMiXd Solo
 
 Note : 
-- BUYER DAN SELLER SUDAH MENGATAKAN DONE
-- ADMIN TIDAK BERTANGGUNG JAWAB KARENA BUYER DAN SELLER SUDAH MENGATAKAN *DONE*
+- *BUYER DAN SELLER SUDAH MENGATAKAN DONE*
+- *ADMIN TIDAK BERTANGGUNG JAWAB KARENA BUYER DAN SELLER SUDAH MENGATAKAN DONE*
 - *BE SMART A BUYER AND SELLER*
-MiMiXd Solo`
+
+*MiMiXd Solo*`
 m.reply(txtd)
 break       
 case 'pay':
