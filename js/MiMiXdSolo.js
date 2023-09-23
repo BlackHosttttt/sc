@@ -609,11 +609,11 @@ case 'csubdo':
         break		
 
 case 'listgc': {
-	         if (!isCreator) return (`Fitur Khusus MiMiXd Solo Bang`)
+	         if (!isCreator) return m.reply(`Fitur Khusus MiMiXd Solo Bang`)
                  let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
                  let teks = `⬣ LIST GROUP CHAT\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
-                     let metadata = await kurr.groupMetadata(i)
+                     let metadata = await MiMiXdSolo.groupMetadata(i)
                      teks += `› Nama : ${metadata.subject}\n› ID : ${metadata.id}\n› Dibuat : ${moment(metadata.creation * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n› Member : ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  MiMiXdSolo.sendTextWithMentions(m.chat, teks, m)
