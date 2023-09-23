@@ -101,7 +101,7 @@ case "nostok":
 m.reply(`PRODUK SEDANG HABIS`)
 break
  
-case "help": case "menu":
+case "help": case "menuuuuuuu":
 m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 
 ▢═┅═━–( Store Menu )–═┅═━▢
@@ -126,6 +126,35 @@ m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
 ┊━━▢ 
 ▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
 break 
+
+case "help": case "menu":
+m.reply(`▢═┅═━–( MiMiXd Solo )–═┅═━▢
+
+▢═┅═━–( Menu )–═┅═━▢
+┊•-.fr (munculkan list Fee)
+┊•-.pay (munculkan list payment)
+┊•-.dmc (untuk done vps)
+┊•-.d (untuk done transaksi)
+┊━━▢ 
+▢═┅═━–( MiMiXd Solo )–═┅═━▢`)
+break 	
+
+case "fr":
+m.reply(`Fee Rekber MiMiXd Solo
+
+0 - 49K = 5K
+50 - 199K = 10K
+200K - 299K = 20K
+300K - 399K = 25K
+400K - 599K = 35K
+600K - 999K = 50K
+1JT - 1.99JT = 75K
+2JT - 3JT = 100K
+3JT+ = 200K
+BT/TT 25K
+
+| TRX BATAL FEE KEPOTONG |`)
+break 			
 
 case "gca":
 if (!isCreator) return        
